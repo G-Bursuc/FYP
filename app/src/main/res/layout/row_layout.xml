@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:id="@+id/myRow"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/viewName"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:text="Name of Task"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/viewDesc"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Desc"
+        android:layout_below="@+id/viewName" />
+
+    <TextView
+        android:id="@+id/viewDDateTitle"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Date Due:"
+        android:textSize="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/viewDDate"
+        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:text="Date"
+        android:textAlignment="viewEnd"
+        android:layout_below="@+id/viewDDateTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/viewDesc"/>
+
+</RelativeLayout>

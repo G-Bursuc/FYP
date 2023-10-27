@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "780492797202",
+    "firebase_url": "https://fypdb-1ad4c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fypdb-1ad4c",
+    "storage_bucket": "fypdb-1ad4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780492797202:android:36f0ac811737b7ba5defcb",
+        "android_client_info": {
+          "package_name": "com.example.timemanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcQvMIBT3WD0pHyhsqmtuulXLZSm0G1go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

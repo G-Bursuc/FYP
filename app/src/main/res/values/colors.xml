@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- retrieved from: https://gist.github.com/sghael/2930380 -->
+<resources>
+    <color name="soft_blue">#495563</color>
+    <color name="soft_blue_light">#6d8687</color>
+    <color name="soft_tan">#dba399</color>
+    <color name="soft_cream">#fbeaea</color>
+
+</resources>

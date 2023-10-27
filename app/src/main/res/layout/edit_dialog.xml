@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp">
+
+    <EditText
+        android:id="@+id/editdDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Date Due"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:layout_below="@+id/editDesc"/>
+
+    <EditText
+        android:id="@+id/editDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Description"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:layout_below="@+id/editName"/>
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Name of Task"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/confirmbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_below="@+id/editdDate" />
+
+</RelativeLayout>
